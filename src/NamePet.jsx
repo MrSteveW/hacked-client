@@ -51,7 +51,7 @@ function NamePet() {
         {error && <p style={{ color: "red" }}>{error}</p>}
 
         <div className="formButtons">
-          <Link to="/meetpet" className="BnSButton">
+          <Link to="/pickpet" className="BnSButton">
             Back
           </Link>
 
