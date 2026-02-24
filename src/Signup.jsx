@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import './Signup.css'
 
 function Signup() {
     return(
         <>
         <div class="signUpSp1">
-            <div class="SignUpBSp">
-                <h1> Sign Up </h1>
+            <div class="signUpBSp">
+                <h1 class="SignUpTit"> Sign Up </h1>
                 <form>
                     <input type="email" id="email" name="email" placeholder="email"></input>
                     <input placeholder="Username" type="text" id="username" name="username"></input>

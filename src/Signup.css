@@ -1,0 +1,18 @@
+.signUpSp1 {
+    background-color: #62B2CD;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0
+}
+
+.signUpBSp {
+    background-color: rgb(255, 248, 240);
+    width: 50%;
+    height: 50%;
+}
+
+.SignUpTit {
+    margin: 0;
+}
