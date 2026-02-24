@@ -7,7 +7,7 @@ function Home() {
       <div className="homeContainer">
 
         {/* Pet Name */}
-        <h1 className="petName">Fluffy</h1>
+        <h1 className="petName">STUDY PET</h1>
 
         {/* Pet Image */}
         <div className="petImageWrapper">

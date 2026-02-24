@@ -8,7 +8,10 @@ function NamePet() {
   const navigate = useNavigate();
 
   const handleConfirm = async () => {
-    if (petName.trim() === "") return;
+    if (petName.trim() === "") {
+      setError("Please enter a name.");
+      return;
+    }
 
     try {
       const response = await fetch("http://localhost:5001/namepet", {
@@ -19,17 +22,20 @@ function NamePet() {
         body: JSON.stringify({ petName }),
       });
 
+      console.log("Response status:", response.status);
+
       const data = await response.json();
+      console.log("Response data:", data);
 
       if (response.ok) {
-        console.log("Pet name saved:", data);
+        console.log("Redirecting to home...");
         navigate("/home");
       } else {
         setError(data.message || "Failed to save pet name");
       }
     } catch (err) {
-      console.error("Server error:", err);
-      setError("Server error. Please try again.");
+      console.error("Fetch error:", err);
+      setError("Cannot connect to server.");
     }
   };
 
@@ -55,7 +61,11 @@ function NamePet() {
             Back
           </Link>
 
-          <button className="BnSButton" onClick={handleConfirm}>
+          <button
+            type="button"
+            className="BnSButton"
+            onClick={handleConfirm}
+          >
             Done
           </button>
         </div>
