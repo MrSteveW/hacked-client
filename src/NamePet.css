@@ -1,0 +1,92 @@
+/* EXACT same design system */
+
+.signUpSp1 {
+    background: linear-gradient(135deg, #62B2CD, #4aa4c2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.signUpBSp {
+    background-color: rgb(253, 251, 248);
+    width: 60%;
+    max-width: 700px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.SignUpTit {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.formSp {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.formInp {
+    padding: 12px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #a1d8eb;
+    transition: 0.2s ease;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.formInp:focus {
+    outline: none;
+    background-color: #8fd0e6;
+    box-shadow: 0 0 0 2px #62B2CD;
+}
+
+.formButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+/* Same yellow circular buttons */
+.BnSButton {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: "Pixelify Sans", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.BnSButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.BnSButton:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}   

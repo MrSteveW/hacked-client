@@ -30,7 +30,7 @@ function Subjects() {
 
     // Send to backend in background
     try {
-      const response = await fetch("http://localhost:5001/subject", {
+      const response = await fetch("http://localhost:5001/subjects", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ subject_id: selectedSubject.id }),

@@ -1,0 +1,87 @@
+/* Background stays consistent */
+.signUpSp1 {
+    background: linear-gradient(135deg, #62B2CD, #4aa4c2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+/* Main Home Layout */
+.homeContainer {
+    background-color: rgb(253, 251, 248);
+    width: 60%;
+    max-width: 700px;
+    height: 80vh;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Pet Name */
+.petName {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+}
+
+/* Image Section */
+.petImageWrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.petImage {
+    max-width: 80%;
+    max-height: 300px;
+    border-radius: 20px;
+}
+
+/* Bottom Navbar */
+.bottomNav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Yellow Circular Buttons (same exact style) */
+.BnSButton {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: black;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.BnSButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.BnSButton:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
