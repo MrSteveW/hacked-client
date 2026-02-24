@@ -3,9 +3,7 @@ import './Signup.css'
 
 function Signup() {
 
-    async function signup() {
-    if (password1 === password2 & range & capital & number & special){
-      const res = await fetch("http://localhost:5001/signup", {
+      const res = fetch("http://localhost:5001/signup", {
         method:"POST",
         credentials:"include",
         headers: {
@@ -15,16 +13,11 @@ function Signup() {
         body: JSON.stringify({
           email: email,
           username: username,
-          password: password
+          password: password,
+
         })
       })
-      setError(res.status)
-    } 
-    else {
-      setErrorText(null)
-      setError(null)
-    }
-  }
+  
     return(
         <>
         <div class="signUpSp1">
