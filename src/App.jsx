@@ -4,6 +4,7 @@ import Subjects from './Subjects';
 import PickPet from './PickPet';
 import NamePet from './NamePet';
 import Home from './Home';
+import Statstics from './Statistics';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/pickpet" element={<PickPet />} />
         <Route path='/namepet' element={<NamePet />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/statistics" element={<Statstics/>} />
       </Routes>
     </BrowserRouter>
   );

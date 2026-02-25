@@ -21,8 +21,8 @@ function Home() {
         {/* Bottom Navbar */}
         <div className="bottomNav">
           <Link to="/feed" className="BnSButton">Feed</Link>
-          <Link to="/play" className="BnSButton">Play</Link>
-          <Link to="/shop" className="BnSButton">Shop</Link>
+          <Link to="/statistics" className="BnSButton">Statistics</Link>
+          <Link to="/shop" className="BnSButton">Learn</Link>
         </div>
 
       </div>

@@ -61,6 +61,11 @@ function NamePet() {
             Back
           </Link>
 
+          <Link to="/home" className="BnSButton">
+            Next
+            
+          </Link>
+
           <button
             type="button"
             className="BnSButton"

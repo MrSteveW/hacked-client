@@ -69,6 +69,10 @@ function Signup() {
             <Link to="/" className="BnSButton">
               Back
             </Link>
+            <Link to="/subjects" className="BnSButton">
+            Next
+            
+            </Link>
 
             <button className="BnSButton" type="button" onClick={handleClick}>
               Sign Up
