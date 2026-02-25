@@ -20,9 +20,9 @@ function Home() {
 
         {/* Bottom Navbar */}
         <div className="bottomNav">
-          <Link to="/feed" className="BnSButton">Feed</Link>
+          <Link to="/notadded" className="BnSButton">Feed</Link>
           <Link to="/statistics" className="BnSButton">Statistics</Link>
-          <Link to="/shop" className="BnSButton">Learn</Link>
+          <Link to="/notadded" className="BnSButton">Learn</Link>
         </div>
 
       </div>

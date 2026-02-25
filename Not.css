@@ -1,0 +1,15 @@
+.notDoneBg {
+    background-image: url("");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.NDT {
+    color: white;
+    font-size: 500%;
+    font-family: "Pixelify Sans", sans-serif;
+}

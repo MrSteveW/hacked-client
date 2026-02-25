@@ -34,11 +34,14 @@
 
 /* Image Section */
 .petImageWrapper {
+    background-color:#62b2cdaf ;
+    border-radius: 15px;
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 500px;
 }
 
 .petImage {
