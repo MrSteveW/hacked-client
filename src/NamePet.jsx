@@ -19,6 +19,7 @@ function NamePet() {
         headers: {
           "Content-Type": "application/json",
         },
+        credentials: "include",
         body: JSON.stringify({ petName }),
       });
 
