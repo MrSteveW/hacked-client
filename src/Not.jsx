@@ -1,4 +1,5 @@
 import './Not.css'
+import { Link } from 'react-router-dom';
 
 function NotAdded() {
     return (
@@ -6,7 +7,7 @@ function NotAdded() {
         <div class="notDoneBg">
             <h1 class="NDT">ERROR 404</h1>
             <p class="NDP">Page has either not been made or cannot be found :(</p>
-            <Link class="BnsButton" to='/home'>
+            <Link class="BnSButton" to='/home'>
             Back
             
             </Link>
