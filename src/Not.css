@@ -1,15 +1,21 @@
 .notDoneBg {
-    background-image: url("");
+    background: linear-gradient(135deg, #62B2CD, #4aa4c2);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
     font-family: "Pixelify Sans", sans-serif;
+    flex-direction: column;
 }
 
 .NDT {
     color: white;
-    font-size: 500%;
+    font-size: 900%;
     font-family: "Pixelify Sans", sans-serif;
+}
+
+.NDP {
+    color: white;
+    font-size: 200%;
 }

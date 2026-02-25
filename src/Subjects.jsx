@@ -33,7 +33,7 @@ function Subjects() {
       const response = await fetch("http://localhost:5001/subjects", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ subject_id: selectedSubject.id }),
+        body: JSON.stringify({ id: selectedSubject.id }),
         credentials: "include"
       });
 

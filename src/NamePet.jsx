@@ -20,7 +20,7 @@ function NamePet() {
           "Content-Type": "application/json",
         },
         credentials: "include",
-        body: JSON.stringify({ petName }),
+        body: JSON.stringify({ petName: petName }),
       });
 
       console.log("Response status:", response.status);
