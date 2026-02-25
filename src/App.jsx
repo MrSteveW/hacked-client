@@ -6,6 +6,7 @@ import NamePet from './NamePet';
 import Home from './Home';
 import Statstics from './Statistics';
 import NotAdded from './Not';
+import Feed from './Feed';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/namepet' element={<NamePet />} />
         <Route path="/home" element={<Home />} />
         <Route path="/statistics" element={<Statstics/>} />
+        <Route path="/feed" element={<Feed/>} />
         <Route path="*" element={<NotAdded/>} />
       </Routes>
     </BrowserRouter>
