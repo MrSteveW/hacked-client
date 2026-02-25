@@ -12,7 +12,6 @@ function PickPet() {
     <div className="signUpSp1">
       <div className="signUpBSp">
         <h1 className="SignUpTit">Meet Your Pet!</h1>
-
         {/* Main Image */}
         <div className="subjectBox">
           <img
@@ -21,13 +20,11 @@ function PickPet() {
             className="petImage"
           />
         </div>
-
         {/* Buttons */}
         <div className="formButtons">
           <Link to="/" className="BnSButton">
             Back
           </Link>
-
           <button 
             className="BnSButton" 
             type="button"

@@ -9,10 +9,8 @@ function NotAdded() {
             <p class="NDP">Page has either not been made or cannot be found :(</p>
             <Link class="BnSButton" to='/home'>
             Back
-            
             </Link>
         </div>
-
         </>
     )
 };

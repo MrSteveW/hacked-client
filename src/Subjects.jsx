@@ -51,7 +51,6 @@ function Subjects() {
 
         <div className="subjectBox">
           <h2>What subjects would you like to study?</h2>
-
           <div className="dropdown">
             <div
               className="dropdown-btn"
@@ -59,7 +58,6 @@ function Subjects() {
             >
               {selectedSubject ? selectedSubject.name : "Select Subject"}
             </div>
-
             {dropdownOpen && (
               <div className="dropdown-content">
                 {subjects.map((sub) => (
@@ -77,7 +75,6 @@ function Subjects() {
             )}
           </div>
         </div>
-
         <div className="formButtons">
           <Link to="/" className="BnSButton">
             Back

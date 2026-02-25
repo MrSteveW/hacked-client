@@ -8,14 +8,12 @@ function Statistics() {
             <div class="statB">
                 <h1 class="statTit">
                     Statistics (placeholder)
-
                 </h1>
                 <img class="statImg" src="/public/images/stats.png"></img>
                 <Link to="/home" className="BnSButton">
                     Back
                 </Link>
             </div>
-            
         </div>
         </>
     )

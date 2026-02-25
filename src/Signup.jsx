@@ -39,7 +39,6 @@ function Signup() {
     <div className="signUpSp1">
       <div className="signUpBSp">
         <h1 className="SignUpTit">Sign Up</h1>
-
         <form className="formSp" onSubmit={(e) => e.preventDefault()}>
           <input
             className="formInp"
@@ -62,18 +61,14 @@ function Signup() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-
           {error && <p style={{ color: "red" }}>{error}</p>}
-
           <div className="formButtons">
             <Link to="/" className="BnSButton">
               Back
             </Link>
             <Link to="/subjects" className="BnSButton">
             Next
-            
             </Link>
-
             <button className="BnSButton" type="button" onClick={handleClick}>
               Sign Up
             </button>
